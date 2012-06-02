@@ -8,6 +8,9 @@ group :test, :development do
 
   gem 'simplecov'
   gem 'rspec'
+
+  gem 'guard'
+  gem 'guard-rspec'
 end
 
 
