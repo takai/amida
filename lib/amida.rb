@@ -21,14 +21,9 @@ module Amida
       "#{bar_row_string(column)}\n#{footer_string}"
     end
 
-    def run
-      num    = 18
-      column = 20
-
+    def run(row, column)
       puts header(column)
-      num.times do
-        puts row(column)
-      end
+      row.times { puts row(column) }
       puts footer(column)
     end
 
